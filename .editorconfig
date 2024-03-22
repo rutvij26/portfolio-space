@@ -1,0 +1,9 @@
+# Top-most EditorConfig file
+root = true
+eol=lf
+
+# TypeScript and TSX files
+[*.{ts,tsx}]
+indent_style = tab
+indent_size = 4
+tab_width = 4
