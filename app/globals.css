@@ -64,6 +64,15 @@
   display: none;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+* {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
 html {
   scroll-behavior: smooth;
 }
